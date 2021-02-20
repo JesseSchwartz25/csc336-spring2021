@@ -1,0 +1,99 @@
+  @import url('https://fonts.googleapis.com/css?family=Oxygen:400,700&display=swap');
+
+  body {
+    background-color: #AED581;
+    /* Using imported Google Font (remember the default font family!) */
+    font-family: Oxygen, sans-serif;
+  }
+
+  h1 {
+    padding: .5em;
+    font-style: italic;
+    background-color: #e8e8e8;
+    text-indent: 1em;
+    text-align: left;
+    margin: 12pt;
+  }
+
+  aside {
+    float: left;
+    background-color: #e8e8e8;
+    width: 30%;
+    margin: 1em;
+    margin-top: 0;
+    padding: 15pt;
+    font-size: 90%;
+  }
+
+  aside>figure>img {
+    width: 100%;
+  }
+
+  main>section>article {
+    background-color: #e8e8e8;
+    margin: 15pt;
+  }
+
+  section {
+    background-color: #222222;
+    float: left;
+    width: 60%
+  }
+
+  h2 {
+    background-color: #e8e8e8;
+    margin: 15pt;
+  }
+
+  header h2 {
+    text-align: center;
+  }
+
+  section p {
+    background-color: #e8e8e8;
+    margin: 15pt;
+    padding: 5pt;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    font-weight: 500;
+  }
+
+  section img {
+    width: 25%;
+    /* float: left; */
+    margin: 5pt;
+    padding: 5pt;
+  }
+
+  footer {
+    /* display: flex; */
+    /* position:relative; */
+    /* bottom: 0; */
+    text-align: center;
+    background-color: #e8e8e8;
+    clear: both;
+    font-style: italic;
+    padding: 1em;
+    margin: 1em;
+  }
+
+  #scientific-name {
+    font-style: italic;
+    font-weight: bold;
+    text-align: right;
+    font-size: 90%;
+  }
+
+  #down-under {
+    border: 3px solid black;
+  }
+
+  figcaption {
+    font-weight: bold;
+    text-align: right;
+    font-size: 90%;
+  }
+
+  section {
+    position: relative;
+  }

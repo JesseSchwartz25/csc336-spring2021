@@ -1,0 +1,68 @@
+html {
+  background-color: lightgray;
+}
+
+p {
+  font-family: helvetica;
+}
+
+h1 {
+  text-align: center;
+}
+
+strong {
+  text-align: center;
+  float: right;
+  margin-right: 50%;
+}
+
+header p {
+  color: red;
+  text-align: center;
+}
+
+#sub {
+  font-style: italic;
+}
+
+header hr {
+  padding-top: 50px;
+  background-color: darkgrey;
+}
+
+section.Text {
+  text-align: center;
+}
+
+#twitter {
+  border: 50px;
+  border-width: thick;
+  padding: 50px;
+  background-color: darkgrey;
+  margin-bottom: 50px;
+}
+
+section.Image {
+  float: right;
+  margin-right: 25%;
+  padding: 10px;
+}
+
+article {
+  margin: 50px;
+}
+
+#idea {
+  text-align: justify;
+  text-indent: 10px;
+  text-shadow: 2px 2px darkgrey;
+}
+
+footer hr {
+  padding-bottom: 25px;
+  background-color: darkgrey;
+}
+
+.Image {
+  float: right;
+}

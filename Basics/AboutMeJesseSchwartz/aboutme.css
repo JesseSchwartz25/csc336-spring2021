@@ -1,0 +1,50 @@
+html {
+  background-color: aqua;
+}
+
+h2 {
+  color: red;
+}
+
+em {
+  color: green;
+}
+
+h1 {
+  font-family: courier new;
+}
+
+p {
+  font-family: helvetica, arial;
+}
+
+img {
+  image-resolution: 300px;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p::first-letter {
+  /* float: left; */
+  font-size: 150%
+}
+
+li:nth-child(2n+0) {
+  color: teal;
+}
+
+li:nth-child(2n+1) {
+  color: blue;
+}
+
+ol {
+  display:flex;
+  flex-direction: column-reverse;
+/* This was complicated and took me some time to figure out. I think it would have been much easier to do <ol reverse> than this */
+}
