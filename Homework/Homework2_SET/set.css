@@ -1,0 +1,71 @@
+html{
+  /* display: flex;
+  justify-content: center; */
+
+  text-align: center;
+  font-size: 12pt;
+}
+
+
+
+
+#menu-view article{
+
+  background-color: #6F77ED;
+  color: white;
+  border: 5pt solid black;
+  border-radius: 0.35em;
+  /* padding-bottom: 20px; */
+}
+
+h2{
+  font-size: 16pt;
+  text-decoration: underline;
+}
+
+#start, #menu-view>article>select{
+  background-color: white;
+  border: 2pt solid black;
+}
+
+#start{
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+#menu-view{
+/* This is only to work with the Game view, eventually you will delete this and it will be run using JS */
+
+  display: none;
+
+
+}
+.hidden{
+  /* display: none; */
+}
+
+
+#details{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: white;
+  background-color: black;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+  font-size: 14pt;
+}
+
+button{
+  background-color: white;
+  padding: 8px;
+  font-size: 12pt;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+#game{
+  border: 5pt solid black;
+  border-top: 0px;
+}
