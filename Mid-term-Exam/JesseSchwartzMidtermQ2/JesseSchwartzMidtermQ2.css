@@ -1,0 +1,41 @@
+/* Write the CSS to add styles to this HTML to meet the expected output with the following appearance details. Remember to set flex properties to meet the screenshot output:
+
+ ● Card positioning:
+○ The horizontal spacing for the three cards is achieved by setting the appropriate flex property in the appropriate CSS selector to the space-between value.
+
+● Card details:
+○ The divs containing card images are each 200px wide and 75px tall with a solid black border of 0.35em width and a border radius of 15px.
+○ The horizontal spacing for the images in each individual card is achieved by setting the appropriate flex property in the appropriate CSS selector to the space-around value.
+○ All images should have a specified height of 60px and be vertically centered in each card.
+
+● Heading:
+○ The Set! heading is Helvetica font with a default of sans-serif and is centered on the page with 5px of spacing between the text and the top border of the cards */
+
+h1{
+  text-align: center;
+  font-family: 'Helvetica', sans-serif;
+  padding-bottom: 5px;
+}
+
+
+.row{
+  display: flex;
+  justify-content: center;
+}
+
+.card{
+  width: 200px;
+  height: 75px;
+  border: 0.35em solid black;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+img{
+  height: 60px;
+  margin-top: auto;
+  margin-bottom: auto;
+}

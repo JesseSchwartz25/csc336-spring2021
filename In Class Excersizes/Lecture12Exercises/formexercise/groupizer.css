@@ -46,3 +46,11 @@ ul {
 .invalid-input {
   background-color: red;
 }
+
+.filled{
+  background-color: yellow;
+}
+
+.groupname{
+  background-color: pink;
+}
