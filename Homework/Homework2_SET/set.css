@@ -3,6 +3,7 @@ html {
   justify-content: center; */
   text-align: center;
   font-size: 12pt;
+  font-family: 'helvetica', sans-serif;
 }
 
 #menu-view article {
@@ -88,13 +89,6 @@ button {
 
 }
 
-.card:active{
+.card:active, .selected{
   box-shadow: 6px 6px #636363;
-}
-
-.card:
-
-.normal{
-  /* This can be used to add or hide cards when switching difficulties */
-  /* display: none; */
 }
