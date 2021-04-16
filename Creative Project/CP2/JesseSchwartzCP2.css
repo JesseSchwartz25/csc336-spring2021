@@ -1,0 +1,48 @@
+#title{
+  display: flex;
+  justify-content: center;
+}
+
+html{
+  text-align: center;
+}
+
+#details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: white;
+  background-color: black;
+  font-size: 14pt;
+}
+
+.hidden{
+  display: none;
+}
+
+#game {
+  padding: 20px;
+  border-top: 0pt;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+
+.door {
+  margin: 10px;
+  width: 220px;
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 1em;
+}
+
+.selected{
+  background-color: grey;
+}
+
+
+button{
+  background-color: lightgrey;
+}

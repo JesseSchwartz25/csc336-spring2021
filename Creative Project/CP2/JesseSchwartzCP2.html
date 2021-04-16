@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="JesseSchwartzCP2.js"></script>
+  <link rel="stylesheet" href="JesseSchwartzCP2.css">
+  <title>The Monty Hall Website</title>
+</head>
+
+<body>
+
+  <h1 id="title">The Monty Hall Problem</h1>
+
+  <section id="rules">
+    <p>This is the Monty Hall problem, made famous by Monty Hall on the gameshow, "Let's Make a Deal"</p>
+    <p>
+      Once you click start, there will be multiple doors for you to click on. Behind one of the doors is a prize, and behind the rest of the doors there is nothing. After choosing your door, we will show you one door that has nothing behind it. After
+      that, you will have the opportunity to switch your selection to a new door. Good luck!
+      </p>
+      <hr>
+      <p>
+      Scoring: <br>
+      +1 for correct guesses, -1 for incorrect guesses
+    </p>
+
+    <div id="difficulty">
+      <h2>Choose a Difficulty:</h2>
+      <p>
+        <label><input type="radio" name="diff" value="regular" checked /> Regular (3 doors)</label>
+        <label><input type="radio" name="diff" value="hard" /> Hard (5 doors)</label>
+      </p>
+
+      <button id="start">Start</button>
+    </div>
+
+  </section>
+
+
+  <section id="game-view" class="hidden">
+
+    <article id="details">
+      <button id="end">End game</button>
+      <p><strong>Score: </strong><span id="score">0</span></p>
+      <button id="statsbtn">Stats</button>
+    </article>
+
+    <div id="game">
+
+
+    </div>
+
+  </section>
+
+  <section id="stats" class="hidden">
+
+
+    <!-- games played, times swapped, win% on keep, win% on swap -->
+    <p><strong>Games Played: </strong><span id="games">0</span></p>
+    <p><strong>Times Swapped: </strong><span id="swapped">0</span></p>
+    <p><strong>Win % on Keep: </strong><span id="winkeep">0</span></p>
+    <p><strong>Win % on Swap: </strong><span id="winswap">0</span></p>
+
+
+  </section>
+
+</body>
+
+</html>
