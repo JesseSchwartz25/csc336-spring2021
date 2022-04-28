@@ -48,7 +48,7 @@
           let img = document.createElement('img');
           img.src = responseArr[i];
           pics.appendChild(img);
-
+          
         }
 
 
